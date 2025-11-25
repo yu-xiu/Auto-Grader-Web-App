@@ -1,0 +1,6 @@
+.vscode
+note.txt
+backend/__pycache__
+backend/.pytest_cache
+backend/auto_grader_env
+backend/grader/__pycache__
