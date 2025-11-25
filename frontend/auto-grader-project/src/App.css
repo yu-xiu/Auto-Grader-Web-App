@@ -1,0 +1,39 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.problem-box {
+  background: #7dc0e7;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.flash {
+  animation: flash 2.0s infinite;
+}
+
+@keyframes flash {
+  0% { color: red; }
+  50% { color: white; }
+  100% { color: red; }
+}
+
