@@ -6,9 +6,10 @@ import ProblemDescription from "./components/ProblemDescription";
 import ResultTable from "./components/ResultTable";
 import { submitCode, uploadFile } from "./api";
 
-const [loading, setLoading] = useState(false);
+
 
 export default function App() {
+  const [loading, setLoading] = useState(false);
   const [code, setCode] = useState(
     `def knight_attack(n, kr, kc, pr, pc):
     # Write your solution here
@@ -49,7 +50,6 @@ export default function App() {
   };
 
   
-
   return (
     <div className="container">
       <h1 className="flash">Auto Grader</h1>
