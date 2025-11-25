@@ -1,7 +1,10 @@
 import axios from "axios"; // 前后端的连接
 
+// const API = axios.create({
+//   baseURL: "http://127.0.0.1:8000",
+// });
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://auto-grader-web-app.onrender.com/",
 });
 
 // 对应后端的两个endpoints
