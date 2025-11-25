@@ -12,16 +12,6 @@ This project includes both:
 Backend: FastAPI + automatic test runner
 Frontend: React + Monaco Editor
 
-### Project Context (Cloud Computing Class Project)
-This project was developed as part of a Cloud Computing course, with the goal of learning how to design and build a complete end-to-end web application.
-```
-Designing a full frontend + backend architecture
-Building a functional web application from scratch
-Implementing a backend grading engine using Python and FastAPI
-Creating a modern React frontend with an interactive code editor
-Connecting the two sides through REST APIs
-Preparing the system for deployment on cloud platforms such as Render and Vercel
-```
 
 ## Tech Stack
 ### Frontend
@@ -56,6 +46,12 @@ Node.js + npm
 Python virtual environment (.venv)
 VS Code / Swagger UI (/docs)
 Git / GitHub
+```
+
+### Deployment
+```
+Vercel - Frontend
+Render - Backend 
 ```
 
 ```
