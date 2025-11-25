@@ -1,6 +1,6 @@
 # Auto-Grader-Web-App (FastAPI + React)
 ## Project Overview
-This project implements an Auto Grader system for grading Python code submissions for a single programming problem: Knight Attack.
+This project implements an Auto Grader system for grading Python code submissions for a single programming problem: Knight Attack. 
 
 Students can:
 Read the problem description
@@ -8,10 +8,20 @@ Write or upload Python code
 Submit the solution and automatically receive a test report
 See PASS/FAIL results per test case and execution time
 
-
 This project includes both:
 Backend: FastAPI + automatic test runner
 Frontend: React + Monaco Editor
+
+### Project Context (Cloud Computing Class Project)
+This project was developed as part of a Cloud Computing course, with the goal of learning how to design and build a complete end-to-end web application.
+```
+Designing a full frontend + backend architecture
+Building a functional web application from scratch
+Implementing a backend grading engine using Python and FastAPI
+Creating a modern React frontend with an interactive code editor
+Connecting the two sides through REST APIs
+Preparing the system for deployment on cloud platforms such as Render and Vercel
+```
 
 ## Tech Stack
 ### Frontend
