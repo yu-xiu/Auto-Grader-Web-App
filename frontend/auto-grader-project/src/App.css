@@ -37,3 +37,18 @@
   100% { color: red; }
 }
 
+.spinner {
+  margin: 20px auto;
+  border: 6px solid #eee;
+  border-top: 6px solid #3b82f6; /* blue color */
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
