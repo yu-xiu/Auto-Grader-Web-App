@@ -56,6 +56,8 @@ Git / GitHub
 Vercel - Frontend
 Render - Backend 
 ```
+## Architecture Diagram
+<img src="./assets/auto-grader-architecture-flowchart.png" width="200" />
 
 ```
 auto-grader/
